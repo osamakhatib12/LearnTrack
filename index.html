@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="manifest" href="manifest.json" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LearnTrack</title>
+  <style>
+    body {
+      background-color: #1a1a1a;
+      color: #d4d4d8;
+      font-family: 'Segoe UI', sans-serif;
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+      line-height: 1.7;
+    }
+    h1 {
+      color: #60a5fa;
+      font-size: 2rem;
+      border-bottom: 1px solid #374151;
+      padding-bottom: 0.3rem;
+    }
+    h2 {
+      color: #facc15;
+      font-size: 1.6rem;
+      margin-top: 2rem;
+    }
+    h3 {
+      color: #4ade80;
+      font-size: 1.3rem;
+      margin-top: 1.2rem;
+    }
+    p {
+      color: #e4e4e7;
+      margin-bottom: 1rem;
+    }
+    code {
+      background-color: #2e2e30;
+      color: #93c5fd;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+    a {
+      color: #38bdf8;
+      text-decoration: underline;
+    }
+    a:hover {
+      color: #7dd3fc;
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+    li {
+      margin-bottom: 0.4rem;
+    }
+  </style>
+</head>
+<body>
+<p><h1>🧠 Osama Al-Khatib – Learning Progress Report</h1></p><p><h2>👨‍💻 Overview</h2></p><p>This document summarizes my learning journey in programming, web scraping, backend development with Django, and an introduction to deep learning and cybersecurity. It reflects what I have already learned, what I’m currently focusing on, and my future learning plans and goals.</p><p>---</p><p><h2>✅ What I've Learned So Far</h2></p><p><h3>🔹 Python Programming</h3>
+- Mastered core Python: variables, loops, functions, conditionals, file handling.
+- Used Python to write scripts for data extraction, JSON handling, and more.</p><p><h3>🔹 Web Scraping</h3>
+- Learned multiple scraping methods:
+  - <code>requests</code> + <code>BeautifulSoup</code>
+  - <code>requests-html</code> for rendering JS-based pages
+  - <code>Selenium</code> for dynamic page interaction and scrolling
+- Successfully scraped:
+  - <strong>OpenSooq</strong> real estate listings with phone numbers
+  - <strong>OLX</strong> & <strong>Dubizzle</strong> using DevTools and network requests
+  - <strong>Reddit</strong> posts and comments using full automation with Selenium</p><p>---</p><p><h2>📘 What I’m Currently Learning</h2></p><p><h3>🔹 Django (Backend Web Development)</h3>
+- Project setup, virtual environments
+- Models, Views, Templates (MVT)
+- URL routing, forms, admin panel
+- Preparing to build full-stack apps</p><p><h3>🔹 Deep Learning (Intro)</h3>
+- Basics of neural networks
+- Watching Arabic tutorials on deep learning
+- Understanding how models learn from data (classification, image, and text processing)</p><p>---</p><p><h2>🔮 Future Plans and Goals</h2></p><p><h3>🔸 Django</h3>
+- Learn advanced features (sessions, permissions, user auth)
+- Build and deploy real-world web apps (e.g., dashboards, blog, API-based apps)</p><p><h3>🔸 Deep Learning</h3>
+- Study CNNs, RNNs, NLP models using Keras and TensorFlow
+- Build smart models for image recognition or sentiment analysis
+- Integrate DL models into Django apps</p><p><h3>🔸 Cyber Security</h3>
+- Apply my knowledge from the Cyber Shield Academy:
+  - Network analysis, forensics, SOC monitoring, threat hunting
+  - Ethical hacking and Python-based pentesting tools
+- Build secure apps by implementing proper authentication, logging, encryption, and protection from web attacks (XSS, SQLi, CSRF)
+- Explore AI-based cybersecurity solutions in the future</p><p>---</p><p><h2>📚 Key Learning Resources</h2></p><p><h3>Django</h3>
+- <a href="https://www.youtube.com/playlist?list=PLp2eAGIFKMEVnAAJWhGzLc1Nn-tFP1UHP" target="_blank">Django Arabic Course (YouTube)</a>
+- <a href="https://docs.djangoproject.com/en/stable/" target="_blank">Django Documentation</a></p><p><h3>Deep Learning</h3>
+- <a href="https://www.udemy.com/course/intro-to-deep-learning-arabic/" target="_blank">Intro to Deep Learning – Arabic Course</a>
+- <a href="https://www.coursera.org/specializations/deep-learning" target="_blank">Deep Learning Specialization by Andrew Ng</a></p><p><h3>Cyber Security</h3>
+- Cyber Shield Academy (JODDB)
+- SMT Security Training – CSA, EHA, DFIRA, SOC, Threat Hunter
+- <a href="https://tryhackme.com" target="_blank">TryHackMe</a>, <a href="https://www.hackthebox.com/" target="_blank">Hack The Box</a> – for hands-on labs</p><p>---</p><p><h2>🏁 Final Thoughts</h2></p><p>This roadmap is just the beginning of a long-term journey in tech, combining backend development, automation, AI, and security. I aim to build real-world projects, contribute to open source, and grow into a cybersecurity-aware developer with AI capabilities.
+---</p><p><h1>📄 Reddit Web Scraping Project – Technical Progress Report</h1></p><p><strong>Project Owner</strong>: Osama  
+<strong>Start Date</strong>: May 2025  
+<strong>Goal</strong>: Build a full-featured Reddit scraping system using Selenium, and evolve it into a professional portfolio project (for GitHub, LinkedIn, CV). Future integration with Django is planned.</p><p><h2>🎯 Project Motivation</h2>
+This project is more than a learning experience. It's a structured and scalable web scraping system built around Reddit. The motivation includes:
+- Real-world challenge: Reddit has dynamic content, authentication, rate-limiting, nested data.
+- Rich data variety: Posts, comments, replies, media, timestamps, etc.
+- Evolving into a complete data pipeline with Django.</p><p><h2>✅ Goals (Phase 1 - Web Scraping with Selenium)</h2></p><p><h3>Core Technical Objectives:</h3>
+- Use Selenium with ChromeDriver
+- Implement auto-scroll to load all post/comment content
+- Extract post-level data:
+  - Username
+  - Post title
+  - Full post description (text + media + links)
+  - Votes and comments count
+  - Human-readable timestamps
+- Extract all top-level comments:
+  - Username
+  - Full comment content (multi-type)
+  - Time
+  - Votes
+- Extract replies (nested structure):
+  - Track depth using <code>depth</code> attribute
+  - Track identity using <code>comment-id</code> and <code>parent-id</code>
+  - Detect whether a comment has replies using <code>div[slot="next-reply"]</code>
+  - Detect hidden replies via "more replies" button
+- Save post URLs to JSON file
+- Save detailed post + comments + replies to structured JSON file
+- Save progress file (for resume after crash / stopping)</p><p><h3>🔧 Challenges Encountered & Solved:</h3>
+- Post description not showing consistently -> Solved by dynamic parsing of <code>div[id*=post-rtjson-content]</code>
+- Comments missing or repeated -> Solved by correct use of <code>.find_element</code> vs <code>.find_elements</code> + scrolling fixes
+- Usernames showing <code>None</code> -> Fixed by using <code>get_attribute("author")</code>
+- Votes/text not showing correctly -> Fixed by correct XPath + wait conditions
+- Depth/Hierarchy confusion -> Solved with comment-id/parent-id based tree tracking</p><p><h2>📁 Project Files Structure</h2>
+- <code>Extract_Comments_And_Replies.py</code> -> main scraping logic
+- <code>Functions_For_Scraping.py</code> -> helper: <code>slow_scroll()</code>
+- <code>CommentsWithReplies.json</code> -> Final structured output
+- <code>postLinks.json</code> -> URLs of posts collected for loop-based extraction</p><p><h2>🔜 Next Steps (Upcoming Additions)</h2>
+- Handle "More replies" button dynamically
+- Support full recursion of replies (multi-depth nesting)
+- Build a reply tree using comment-id and parent-id mapping
+- Save replies inside <code>replies</code> array of each parent comment</p><p><h2>🔄 Phase 2: Django Integration (Initial Planning)</h2>
+- Learn Django basics in parallel
+- Store Reddit post data in Django models
+- Build a dashboard to explore scraped content
+- Enable search, filter, and download from Django UI
+- Secure API endpoints for the dataset</p><p>---</p><p><em>Report Update Frequency</em>: This document will be updated daily with new progress, challenges, and design decisions.  
+<em>Next update</em>: May 21, 2025  
+<em>Prepared by</em>: ChatGPT - Technical Assistant to Osama</p><p>---</p><p><h2>📚 مصادر تعليمية موصى بها (باللغة العربية)</h2></p><p><h3>🟢 Django:</h3>
+- <strong>كورس Django الكامل بالعربي</strong>: سلسلة شاملة لتعلم Django من الصفر حتى الاحتراف.  
+  <a href="https://www.youtube.com/playlist?list=PLp2eAGIFKMEVnAAJWhGzLc1Nn-tFP1UHP" target="_blank">مشاهدة الكورس</a></p><p>- <strong>Mastering Django in 2023 (Arabic)</strong>: سلسلة تعليمية متقدمة لتعلم Django.  
+  <a href="https://www.youtube.com/watch?v=rJVQ7X77fxw" target="_blank">مشاهدة السلسلة</a></p><p><h3>🔵 Deep Learning:</h3>
+- <strong>دورة التحضير للتعلم العميق باللغة العربية</strong>: دورة شاملة لتعلم Python والتعلم الآلي من الصفر.  
+  <a href="https://www.udemy.com/course/machine-learning-and-deep-learning-for-arabs/" target="_blank">مشاهدة الدورة</a></p><p>- <strong>Deep Learning MiniCamp [Arabic]</strong>: دورة متقدمة في التعلم العميق باستخدام Keras وTensorFlow.  
+  <a href="https://www.udemy.com/course/intro-to-deep-learning-arabic/" target="_blank">مشاهدة الدورة</a></p><p>- <strong>مقدمة عن التعلم العميق باستخدام الماتلاب</strong>: سلسلة فيديوهات تعليمية حول التعلم العميق باستخدام MATLAB.  
+  <a href="https://www.youtube.com/playlist?list=PLAI6JViu7XmflH_eGgsWkwvv6lbXhYjjY" target="_blank">مشاهدة السلسلة</a>
+</p>
+</body>
+</html>

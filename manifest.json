@@ -1,0 +1,10 @@
+
+{
+  "name": "LearnTrack by Osama",
+  "short_name": "LearnTrack",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#1a1a1a",
+  "theme_color": "#0f172a",
+  "icons": []
+}
