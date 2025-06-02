@@ -1,12 +1,13 @@
 
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <link rel="manifest" href="manifest.json" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>LearnTrack</title>
-  <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Osama Learning Report</title>
+<link href="manifest.webmanifest" rel="manifest"/>
+<style>
     body {
       background-color: #1a1a1a;
       color: #d4d4d8;
@@ -59,96 +60,250 @@
   </style>
 </head>
 <body>
-<p><h1>🧠 Osama Al-Khatib – Learning Progress Report</h1></p><p><h2>👨‍💻 Overview</h2></p><p>This document summarizes my learning journey in programming, web scraping, backend development with Django, and an introduction to deep learning and cybersecurity. It reflects what I have already learned, what I’m currently focusing on, and my future learning plans and goals.</p><p>---</p><p><h2>✅ What I've Learned So Far</h2></p><p><h3>🔹 Python Programming</h3>
-- Mastered core Python: variables, loops, functions, conditionals, file handling.
-- Used Python to write scripts for data extraction, JSON handling, and more.</p><p><h3>🔹 Web Scraping</h3>
-- Learned multiple scraping methods:
-  - <code>requests</code> + <code>BeautifulSoup</code>
-  - <code>requests-html</code> for rendering JS-based pages
-  - <code>Selenium</code> for dynamic page interaction and scrolling
-- Successfully scraped:
-  - <strong>OpenSooq</strong> real estate listings with phone numbers
-  - <strong>OLX</strong> & <strong>Dubizzle</strong> using DevTools and network requests
-  - <strong>Reddit</strong> posts and comments using full automation with Selenium</p><p>---</p><p><h2>📘 What I’m Currently Learning</h2></p><p><h3>🔹 Django (Backend Web Development)</h3>
-- Project setup, virtual environments
-- Models, Views, Templates (MVT)
-- URL routing, forms, admin panel
-- Preparing to build full-stack apps</p><p><h3>🔹 Deep Learning (Intro)</h3>
-- Basics of neural networks
-- Watching Arabic tutorials on deep learning
-- Understanding how models learn from data (classification, image, and text processing)</p><p>---</p><p><h2>🔮 Future Plans and Goals</h2></p><p><h3>🔸 Django</h3>
-- Learn advanced features (sessions, permissions, user auth)
-- Build and deploy real-world web apps (e.g., dashboards, blog, API-based apps)</p><p><h3>🔸 Deep Learning</h3>
-- Study CNNs, RNNs, NLP models using Keras and TensorFlow
-- Build smart models for image recognition or sentiment analysis
-- Integrate DL models into Django apps</p><p><h3>🔸 Cyber Security</h3>
-- Apply my knowledge from the Cyber Shield Academy:
-  - Network analysis, forensics, SOC monitoring, threat hunting
-  - Ethical hacking and Python-based pentesting tools
-- Build secure apps by implementing proper authentication, logging, encryption, and protection from web attacks (XSS, SQLi, CSRF)
-- Explore AI-based cybersecurity solutions in the future</p><p>---</p><p><h2>📚 Key Learning Resources</h2></p><p><h3>Django</h3>
-- <a href="https://www.youtube.com/playlist?list=PLp2eAGIFKMEVnAAJWhGzLc1Nn-tFP1UHP" target="_blank">Django Arabic Course (YouTube)</a>
-- <a href="https://docs.djangoproject.com/en/stable/" target="_blank">Django Documentation</a></p><p><h3>Deep Learning</h3>
-- <a href="https://www.udemy.com/course/intro-to-deep-learning-arabic/" target="_blank">Intro to Deep Learning – Arabic Course</a>
-- <a href="https://www.coursera.org/specializations/deep-learning" target="_blank">Deep Learning Specialization by Andrew Ng</a></p><p><h3>Cyber Security</h3>
-- Cyber Shield Academy (JODDB)
-- SMT Security Training – CSA, EHA, DFIRA, SOC, Threat Hunter
-- <a href="https://tryhackme.com" target="_blank">TryHackMe</a>, <a href="https://www.hackthebox.com/" target="_blank">Hack The Box</a> – for hands-on labs</p><p>---</p><p><h2>🏁 Final Thoughts</h2></p><p>This roadmap is just the beginning of a long-term journey in tech, combining backend development, automation, AI, and security. I aim to build real-world projects, contribute to open source, and grow into a cybersecurity-aware developer with AI capabilities.
----</p><p><h1>📄 Reddit Web Scraping Project – Technical Progress Report</h1></p><p><strong>Project Owner</strong>: Osama  
-<strong>Start Date</strong>: May 2025  
-<strong>Goal</strong>: Build a full-featured Reddit scraping system using Selenium, and evolve it into a professional portfolio project (for GitHub, LinkedIn, CV). Future integration with Django is planned.</p><p><h2>🎯 Project Motivation</h2>
-This project is more than a learning experience. It's a structured and scalable web scraping system built around Reddit. The motivation includes:
+<h1>🧠 Osama Al-Khatib – Learning Progress Report</h1>
+<h2>👨‍💻 Overview</h2>
+<p>This document summarizes my learning journey in programming, web scraping, backend development with Django, and an introduction to deep learning and cybersecurity. It reflects what I have already learned, what I’m currently focusing on, and my future learning plans and goals.</p>
+<hr/>
+<h2>✅ What I've Learned So Far</h2>
+<h3>🔹 Python Programming</h3>
+<ul>
+<li>Mastered core Python: variables, loops, functions, conditionals, file handling.</li>
+<li>Used Python to write scripts for data extraction, JSON handling, and more.</li>
+</ul>
+<h3>🔹 Web Scraping</h3>
+<ul>
+<li>Learned multiple scraping methods:
+<ul>
+<li><code>requests</code> + <code>BeautifulSoup</code></li>
+<li><code>requests-html</code> for rendering JS-based pages</li>
+<li><code>Selenium</code> for dynamic page interaction and scrolling</li>
+</ul></li>
+<li>Successfully scraped:
+<ul>
+<li><strong>OpenSooq</strong> real estate listings with phone numbers</li>
+<li><strong>OLX</strong> &amp; <strong>Dubizzle</strong> using DevTools and network requests</li>
+<li><strong>Reddit</strong> posts and comments using full automation with Selenium</li>
+</ul></li>
+</ul>
+<hr/>
+<h2>📘 What I’m Currently Learning</h2>
+<h3>🔹 Django (Backend Web Development)</h3>
+<ul>
+<li>Project setup, virtual environments</li>
+<li>Models, Views, Templates (MVT)</li>
+<li>URL routing, forms, admin panel</li>
+<li>Preparing to build full-stack apps</li>
+</ul>
+<h3>🔹 Deep Learning (Intro)</h3>
+<ul>
+<li>Basics of neural networks</li>
+<li>Watching Arabic tutorials on deep learning</li>
+<li>Understanding how models learn from data (classification, image, and text processing)</li>
+</ul>
+<hr/>
+<h2>🔮 Future Plans and Goals</h2>
+<h3>🔸 Django</h3>
+<ul>
+<li>Learn advanced features (sessions, permissions, user auth)</li>
+<li>Build and deploy real-world web apps (e.g., dashboards, blog, API-based apps)</li>
+</ul>
+<h3>🔸 Deep Learning</h3>
+<ul>
+<li>Study CNNs, RNNs, NLP models using Keras and TensorFlow</li>
+<li>Build smart models for image recognition or sentiment analysis</li>
+<li>Integrate DL models into Django apps</li>
+</ul>
+<h3>🔸 Cyber Security</h3>
+<ul>
+<li>Apply my knowledge from the Cyber Shield Academy:
+<ul>
+<li>Network analysis, forensics, SOC monitoring, threat hunting</li>
+<li>Ethical hacking and Python-based pentesting tools</li>
+</ul></li>
+<li>Build secure apps by implementing proper authentication, logging, encryption, and protection from web attacks (XSS, SQLi, CSRF)</li>
+<li>Explore AI-based cybersecurity solutions in the future</li>
+</ul>
+<hr/>
+<h2>📚 Key Learning Resources</h2>
+<h3>Django</h3>
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLp2eAGIFKMEVnAAJWhGzLc1Nn-tFP1UHP">Django Arabic Course (YouTube)</a></li>
+<li><a href="https://docs.djangoproject.com/en/stable/">Django Documentation</a></li>
+</ul>
+<h3>Deep Learning</h3>
+<ul>
+<li><a href="https://www.udemy.com/course/intro-to-deep-learning-arabic/">Intro to Deep Learning – Arabic Course</a></li>
+<li><a href="https://www.coursera.org/specializations/deep-learning">Deep Learning Specialization by Andrew Ng</a></li>
+</ul>
+<h3>Cyber Security</h3>
+<ul>
+<li>Cyber Shield Academy (JODDB)</li>
+<li>SMT Security Training – CSA, EHA, DFIRA, SOC, Threat Hunter</li>
+<li><a href="https://tryhackme.com">TryHackMe</a>, <a href="https://www.hackthebox.com/">Hack The Box</a> – for hands-on labs</li>
+</ul>
+<hr/>
+<h2>🏁 Final Thoughts</h2>
+<h2>This roadmap is just the beginning of a long-term journey in tech, combining backend development, automation, AI, and security. I aim to build real-world projects, contribute to open source, and grow into a cybersecurity-aware developer with AI capabilities.</h2>
+<h1>📄 Reddit Web Scraping Project – Technical Progress Report</h1>
+<p><strong>Project Owner</strong>: Osama<br/>
+<strong>Start Date</strong>: May 2025<br/>
+<strong>Goal</strong>: Build a full-featured Reddit scraping system using Selenium, and evolve it into a professional portfolio project (for GitHub, LinkedIn, CV). Future integration with Django is planned.</p>
+<h2>🎯 Project Motivation</h2>
+<p>This project is more than a learning experience. It's a structured and scalable web scraping system built around Reddit. The motivation includes:
 - Real-world challenge: Reddit has dynamic content, authentication, rate-limiting, nested data.
 - Rich data variety: Posts, comments, replies, media, timestamps, etc.
-- Evolving into a complete data pipeline with Django.</p><p><h2>✅ Goals (Phase 1 - Web Scraping with Selenium)</h2></p><p><h3>Core Technical Objectives:</h3>
-- Use Selenium with ChromeDriver
-- Implement auto-scroll to load all post/comment content
-- Extract post-level data:
-  - Username
-  - Post title
-  - Full post description (text + media + links)
-  - Votes and comments count
-  - Human-readable timestamps
-- Extract all top-level comments:
-  - Username
-  - Full comment content (multi-type)
-  - Time
-  - Votes
-- Extract replies (nested structure):
-  - Track depth using <code>depth</code> attribute
-  - Track identity using <code>comment-id</code> and <code>parent-id</code>
-  - Detect whether a comment has replies using <code>div[slot="next-reply"]</code>
-  - Detect hidden replies via "more replies" button
-- Save post URLs to JSON file
-- Save detailed post + comments + replies to structured JSON file
-- Save progress file (for resume after crash / stopping)</p><p><h3>🔧 Challenges Encountered & Solved:</h3>
-- Post description not showing consistently -> Solved by dynamic parsing of <code>div[id*=post-rtjson-content]</code>
-- Comments missing or repeated -> Solved by correct use of <code>.find_element</code> vs <code>.find_elements</code> + scrolling fixes
-- Usernames showing <code>None</code> -> Fixed by using <code>get_attribute("author")</code>
-- Votes/text not showing correctly -> Fixed by correct XPath + wait conditions
-- Depth/Hierarchy confusion -> Solved with comment-id/parent-id based tree tracking</p><p><h2>📁 Project Files Structure</h2>
-- <code>Extract_Comments_And_Replies.py</code> -> main scraping logic
-- <code>Functions_For_Scraping.py</code> -> helper: <code>slow_scroll()</code>
-- <code>CommentsWithReplies.json</code> -> Final structured output
-- <code>postLinks.json</code> -> URLs of posts collected for loop-based extraction</p><p><h2>🔜 Next Steps (Upcoming Additions)</h2>
-- Handle "More replies" button dynamically
-- Support full recursion of replies (multi-depth nesting)
-- Build a reply tree using comment-id and parent-id mapping
-- Save replies inside <code>replies</code> array of each parent comment</p><p><h2>🔄 Phase 2: Django Integration (Initial Planning)</h2>
-- Learn Django basics in parallel
-- Store Reddit post data in Django models
-- Build a dashboard to explore scraped content
-- Enable search, filter, and download from Django UI
-- Secure API endpoints for the dataset</p><p>---</p><p><em>Report Update Frequency</em>: This document will be updated daily with new progress, challenges, and design decisions.  
-<em>Next update</em>: May 21, 2025  
-<em>Prepared by</em>: ChatGPT - Technical Assistant to Osama</p><p>---</p><p><h2>📚 مصادر تعليمية موصى بها (باللغة العربية)</h2></p><p><h3>🟢 Django:</h3>
-- <strong>كورس Django الكامل بالعربي</strong>: سلسلة شاملة لتعلم Django من الصفر حتى الاحتراف.  
-  <a href="https://www.youtube.com/playlist?list=PLp2eAGIFKMEVnAAJWhGzLc1Nn-tFP1UHP" target="_blank">مشاهدة الكورس</a></p><p>- <strong>Mastering Django in 2023 (Arabic)</strong>: سلسلة تعليمية متقدمة لتعلم Django.  
-  <a href="https://www.youtube.com/watch?v=rJVQ7X77fxw" target="_blank">مشاهدة السلسلة</a></p><p><h3>🔵 Deep Learning:</h3>
-- <strong>دورة التحضير للتعلم العميق باللغة العربية</strong>: دورة شاملة لتعلم Python والتعلم الآلي من الصفر.  
-  <a href="https://www.udemy.com/course/machine-learning-and-deep-learning-for-arabs/" target="_blank">مشاهدة الدورة</a></p><p>- <strong>Deep Learning MiniCamp [Arabic]</strong>: دورة متقدمة في التعلم العميق باستخدام Keras وTensorFlow.  
-  <a href="https://www.udemy.com/course/intro-to-deep-learning-arabic/" target="_blank">مشاهدة الدورة</a></p><p>- <strong>مقدمة عن التعلم العميق باستخدام الماتلاب</strong>: سلسلة فيديوهات تعليمية حول التعلم العميق باستخدام MATLAB.  
-  <a href="https://www.youtube.com/playlist?list=PLAI6JViu7XmflH_eGgsWkwvv6lbXhYjjY" target="_blank">مشاهدة السلسلة</a>
-</p>
+- Evolving into a complete data pipeline with Django.</p>
+<h2>✅ Goals (Phase 1 - Web Scraping with Selenium)</h2>
+<h3>Core Technical Objectives:</h3>
+<ul>
+<li>Use Selenium with ChromeDriver</li>
+<li>Implement auto-scroll to load all post/comment content</li>
+<li>Extract post-level data:
+<ul>
+<li>Username</li>
+<li>Post title</li>
+<li>Full post description (text + media + links)</li>
+<li>Votes and comments count</li>
+<li>Human-readable timestamps</li>
+</ul></li>
+<li>Extract all top-level comments:
+<ul>
+<li>Username</li>
+<li>Full comment content (multi-type)</li>
+<li>Time</li>
+<li>Votes</li>
+</ul></li>
+<li>Extract replies (nested structure):
+<ul>
+<li>Track depth using <code>depth</code> attribute</li>
+<li>Track identity using <code>comment-id</code> and <code>parent-id</code></li>
+<li>Detect whether a comment has replies using <code>div[slot="next-reply"]</code></li>
+<li>Detect hidden replies via "more replies" button</li>
+</ul></li>
+<li>Save post URLs to JSON file</li>
+<li>Save detailed post + comments + replies to structured JSON file</li>
+<li>Save progress file (for resume after crash / stopping)</li>
+</ul>
+<h3>🔧 Challenges Encountered &amp; Solved:</h3>
+<ul>
+<li>Post description not showing consistently -&gt; Solved by dynamic parsing of <code>div[id*=post-rtjson-content]</code></li>
+<li>Comments missing or repeated -&gt; Solved by correct use of <code>.find_element</code> vs <code>.find_elements</code> + scrolling fixes</li>
+<li>Usernames showing <code>None</code> -&gt; Fixed by using <code>get_attribute("author")</code></li>
+<li>Votes/text not showing correctly -&gt; Fixed by correct XPath + wait conditions</li>
+<li>Depth/Hierarchy confusion -&gt; Solved with comment-id/parent-id based tree tracking</li>
+</ul>
+<h2>📁 Project Files Structure</h2>
+<ul>
+<li><code>Extract_Comments_And_Replies.py</code> -&gt; main scraping logic</li>
+<li><code>Functions_For_Scraping.py</code> -&gt; helper: <code>slow_scroll()</code></li>
+<li><code>CommentsWithReplies.json</code> -&gt; Final structured output</li>
+<li><code>postLinks.json</code> -&gt; URLs of posts collected for loop-based extraction</li>
+</ul>
+<h2>🔜 Next Steps (Upcoming Additions)</h2>
+<ul>
+<li>Handle "More replies" button dynamically</li>
+<li>Support full recursion of replies (multi-depth nesting)</li>
+<li>Build a reply tree using comment-id and parent-id mapping</li>
+<li>Save replies inside <code>replies</code> array of each parent comment</li>
+</ul>
+<h2>🔄 Phase 2: Django Integration (Initial Planning)</h2>
+<ul>
+<li>Learn Django basics in parallel</li>
+<li>Store Reddit post data in Django models</li>
+<li>Build a dashboard to explore scraped content</li>
+<li>Enable search, filter, and download from Django UI</li>
+<li>Secure API endpoints for the dataset</li>
+</ul>
+<hr/>
+<p><em>Report Update Frequency</em>: This document will be updated daily with new progress, challenges, and design decisions.<br/>
+<em>Next update</em>: May 21, 2025<br/>
+<em>Prepared by</em>: ChatGPT - Technical Assistant to Osama</p>
+<h1>✅ Updates Added (May 26–27)</h1>
+<h3>✅ May 26–27 Reddit Comment Extraction Enhancements</h3>
+<ol>
+<li><p>🧠 Improved detection of hidden and collapsed comments:</p>
+<ul>
+<li>Recognized that some comments on Reddit remain hidden inside <code>&lt;details&gt;</code> tags or require scrolling/clicking to appear.</li>
+<li>Adjusted logic to check for <code>shreddit-comment</code> components with <code>.collapsed</code> class, and detect when they change state to <code>open</code>.</li>
+</ul></li>
+<li><p>🔁 Nested reply handling and comment depth:</p>
+<ul>
+<li>Structured comments using unique comment IDs and parent-child relationships.</li>
+<li>Added logic to expand replies using buttons found inside <code>&lt;slot name="next-reply"&gt;</code> or shadow DOM.</li>
+<li>Ensured that even deeply nested replies (beyond level 3) are detected and stored correctly.</li>
+</ul></li>
+<li><p>🔄 Scroll-based full tree loading:</p>
+<ul>
+<li>Triggered scrolling to load all top-level comments and check for <code>load more comments</code> buttons.</li>
+<li>Supported handling of "more replies" dynamically loaded after expanding collapsed sections.</li>
+</ul></li>
+<li><p>✅ All improvements are now saved to structured JSON to maintain depth and reply order.</p></li>
+</ol>
+<h1>✅ Updates Added (May 28–29)</h1>
+<h2>🔄 Project Updates – May 28–29, 2025</h2>
+<h3>📅 5/28 – Dealing with Hidden Replies &amp; External Permalinks</h3>
+<ul>
+<li>Implemented detection logic for deep-level replies (depth=3) that have hidden "more replies" links pointing to separate permalink pages.</li>
+<li>Created a dedicated script <code>extract_more_reply_links.py</code> to:
+<ul>
+<li>Scroll and click all "show more replies" buttons dynamically using <code>smart_scroll_and_click()</code>.</li>
+<li>Detect comments with <code>depth=3</code> and extract their <code>&lt;a slot="more-comments-permalink"&gt;</code> URLs.</li>
+<li>Avoid duplicates by checking <code>comment-id</code> against previously saved comments.</li>
+<li>Save all collected links to <code>external_links.json</code>.</li>
+</ul></li>
+<li>Verified behavior with DevTools and screenshots to confirm the structure.</li>
+</ul>
+<h3>🛠️ Improvements on Smart Scrolling Logic</h3>
+<ul>
+<li>Enhanced <code>smart_scroll_and_click()</code> to scroll dynamically and click on reply buttons reliably.</li>
+</ul>
+<hr/>
+<h3>📅 5/29 – Merging Replies from External Pages</h3>
+<ul>
+<li>Built the script <code>merge_external_replies.py</code> to:
+<ul>
+<li>Load collected external reply links.</li>
+<li>Open each permalink page and run <code>extract_more_comments_and_replies_from_next_page()</code>.</li>
+<li>Avoid duplication by:
+<ul>
+<li>Using a recursive <code>comment_id_exists()</code> function to deeply scan all comment trees.</li>
+<li>Skipping new top-level comments that were previously replies (false top-level depth=0).</li>
+</ul></li>
+<li>Correctly insert nested replies using the recursive <code>insert_comment_in_tree()</code> function.</li>
+<li>Save merged output to <code>Updated_CommentsWithReplies.json</code>.</li>
+</ul></li>
+</ul>
+<h3>🐛 Bug Fixes &amp; Validations</h3>
+<ul>
+<li>Fixed an issue where some comment IDs were getting re-inserted as new top-level comments despite existing in reply trees.</li>
+<li>Confirmed proper merging of deeply nested replies by manually comparing JSON structure and UI.</li>
+</ul>
+<h3>🔍 Manual Verifications</h3>
+<ul>
+<li>Used screenshots + comment tracing to validate:
+<ul>
+<li>Reply hierarchy (parent-id, depth, content).</li>
+<li>Correct merge locations in the final output file.</li>
+<li>No duplication after final patch.</li>
+</ul></li>
+</ul>
+<hr/>
+<h2>📚 Recommended Learning Resources (Arabic) (باللغة العربية)</h2>
+<h3>🟢 Django:</h3>
+<ul>
+<li><p><strong>كورس Django الكامل بالعربي</strong>: سلسلة شاملة لتعلم Django من الصفر حتى الاحتراف.<br/>
+<a href="https://www.youtube.com/playlist?list=PLp2eAGIFKMEVnAAJWhGzLc1Nn-tFP1UHP">مشاهدة الكورس</a></p></li>
+<li><p><strong>Mastering Django in 2023 (Arabic)</strong>: سلسلة تعليمية متقدمة لتعلم Django.<br/>
+<a href="https://www.youtube.com/watch?v=rJVQ7X77fxw">مشاهدة السلسلة</a></p></li>
+</ul>
+<h3>🔵 Deep Learning:</h3>
+<ul>
+<li><p><strong>دورة التحضير للتعلم العميق باللغة العربية</strong>: دورة شاملة لتعلم Python والتعلم الآلي من الصفر.<br/>
+<a href="https://www.udemy.com/course/machine-learning-and-deep-learning-for-arabs/">مشاهدة الدورة</a></p></li>
+<li><p><strong>Deep Learning MiniCamp [Arabic]</strong>: دورة متقدمة في التعلم العميق باستخدام Keras وTensorFlow.<br/>
+<a href="https://www.udemy.com/course/intro-to-deep-learning-arabic/">مشاهدة الدورة</a></p></li>
+<li><p><strong>مقدمة عن التعلم العميق باستخدام الماتلاب</strong>: سلسلة فيديوهات تعليمية حول التعلم العميق باستخدام MATLAB.<br/>
+<a href="https://www.youtube.com/playlist?list=PLAI6JViu7XmflH_eGgsWkwvv6lbXhYjjY">مشاهدة السلسلة</a></p></li>
+</ul>
 </body>
 </html>
