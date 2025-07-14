@@ -1,0 +1,17 @@
+أوامر تعديل ورفع النسخة على GitHub
+1. الدخول إلى مجلد المشروع
+cd "C:\Users\osama\VS Code Projects\Learn_Track_App"
+2. التأكد إنك داخل Git repo (لازم تشوف مجلد .git)
+git status
+3. حذف الملف القديم (اختياري إذا بدك تبدل يدوي)
+del index.html
+5. إضافة الملفات الجديدة للتتبع
+git add index.html Osama_Learning_Report_Combined.md
+6. عمل commit بوصف مناسب
+git commit -m "Update index.html with new content and old styling"
+7. التأكد إنك على الفرع main (إذا مش عليه):
+git branch -M main
+8. ربط الفرع main بـ GitHub (لو أول مرة)
+git push --set-upstream origin main
+أو لو كنت مرتبط من قبل، تقدر تعمل بس:
+git push
